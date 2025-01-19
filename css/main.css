@@ -1,4 +1,14 @@
-.Fashion-monster{ 
+h1, p, a, h2 {
+
+
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+img{ 
   width: 20%;  
   height: 20%;
  } 
