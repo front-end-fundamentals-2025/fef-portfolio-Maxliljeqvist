@@ -1,103 +1,109 @@
-h1, p, a, h2 {
-
-
+h1,
+p,
+a,
+h2 {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-
 }
 
 /*logo*/
 
-#logo { 
+#logo {
   font-weight: 600;
   font-size: 1.6rem;
   border: 2px solid black;
   display: inline;
   padding: 5px;
+}
 
- }
-
- /* HEADER */
-header{ 
+/* HEADER */
+header {
   display: flex;
   align-items: center;
 }
 
- ul {
+ul {
   display: flex;
   list-style: none;
   padding-left: 0;
- }
+}
 
- li  {
+li {
   margin-left: 3rem;
- }
+}
 
- a{
+a {
   color: black;
- }
+}
 
 @media screen and (max-width: 700px) {
-  header, ul {
+  header,
+  ul {
     flex-direction: column;
     align-items: start;
   }
- li {
-  margin-left: 0;
-  margin-bottom: 1rem;
- }
- ul {
-  margin-top: 0;
-  
- }
+  li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  ul {
+    margin-top: 0;
+  }
 }
 /*categories and classes*/
 
-
-
-@media screen and (min-width: 700px){
-  .funny-animals {
-    display: inline-block;
-  display: grid;
-  
-  grid-template-columns: 1fr 1fr;
-  /* Here i tried to center the images but i couldn't figure out why the content of the images were so wide*/
-  flex-direction: column;
-  align-items: end;
+@media only screen and (max-width: 700px) {
+  .bio {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  .whatdedog {
+    width: 100vw;
   }
 }
-.Fashion-monster{ 
-  width: 100%;  
 
- } 
+@media screen and (min-width: 700px) {
+  .funny-animals {
+    display: inline-block;
+    display: grid;
 
- .About_me {
+    grid-template-columns: 1fr 1fr;
+    /* Here i tried to center the images but i couldn't figure out why the content of the images were so wide*/
+    flex-direction: column;
+    align-items: end;
+  }
+}
+.Fashion-monster {
+  width: 100%;
+}
+
+.About_me {
   font-size: 200%;
-} 
+}
 
-.Portio{
+.Portio {
   width: 60%;
   height: 30%;
- }
+}
 
- figure{
+figure {
   margin-left: 0;
   grid-area: img;
- }
+}
 
- .personal_comment {
+.personal_comment {
   font-weight: 200;
   font-size: 1.2rem;
   border: 2px dashed black;
   display: inline;
   padding: 3px;
- }
+}
 
- /*footer border*/
+/*footer border*/
 
- footer {
+footer {
   border-top: 2px solid black;
  }
 
